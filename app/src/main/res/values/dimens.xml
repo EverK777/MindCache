@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TextView Dimens -->
+    <dimen name="small_text_view">8sp</dimen>
+    <dimen name="normal_text_view">12sp</dimen>
+    <dimen name="big_text_view">14sp</dimen>
+    <dimen name="x_big_text_view">16sp</dimen>
+    <dimen name="xx_big_text_view">18sp</dimen>
+    <dimen name="xxx_big_text_view">20sp</dimen>
+
+</resources>

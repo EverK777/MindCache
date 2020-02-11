@@ -1,4 +1,4 @@
-package com.example.mindvalleychallenge
+package com.example.mindvalleychallenge.utils
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,7 +13,8 @@ class DynamicAdapter<T>(
         return ViewHolder(
             LayoutInflater
                 .from(parent.context)
-                .inflate(layout, parent, false))
+                .inflate(layout, parent, false)
+        )
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
