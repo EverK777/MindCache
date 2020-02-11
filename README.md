@@ -2,6 +2,15 @@
 Image loading and cache library
 
 
+
+![alt text](https://github.com/EverK777/Images/blob/master/m1.png) 
+
+
+![alt text](https://github.com/EverK777/Images/blob/master/m2.png) 
+
+
+
+
 ## Installation
 
 ### Configure jitpack in gradle
