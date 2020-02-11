@@ -14,8 +14,13 @@ allprojects {
 }
 ```
 
+
 ### Add library to gradle app level and Sync
- 
+```
+dependencies {
+	        implementation 'com.github.EverK777:MindCache:Tag'
+	}
+ ```
 ### Get image from url 
 
  ```
