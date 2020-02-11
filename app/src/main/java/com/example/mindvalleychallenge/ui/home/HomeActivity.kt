@@ -1,21 +1,15 @@
 package com.example.mindvalleychallenge.ui.home
 
-import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.graphics.Color
-import android.net.Uri
-import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityOptionsCompat
-import androidx.core.content.FileProvider
 import androidx.core.view.ViewCompat
 import androidx.lifecycle.Observer
-import com.everapps777.mindcaching.BuildConfig
 import com.everapps777.mindcaching.cancelLoading
-import com.everapps777.mindcaching.downloadAndGetFile
 import com.everapps777.mindcaching.loadImage
 import com.example.mindvalleychallenge.R
 import com.example.mindvalleychallenge.extentions.configureStaggedRecycler
@@ -25,8 +19,6 @@ import com.example.mindvalleychallenge.utils.AppConstants
 import com.example.mindvalleychallenge.utils.DynamicAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.item_recycler_test.view.*
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
 import org.koin.android.viewmodel.ext.android.viewModel
 
 
