@@ -1,2 +1,2 @@
-include ':app', ':mindcachingLibrary'
+include ':app', ':mindCachingLibrary'
 rootProject.name='MindValley Challenge'
