@@ -28,7 +28,7 @@ profile_image.loadImage("https://imageDummy.jpg")
  ```
  
 
-### download a file (it needs a view)
+### Download a file (it needs a view)
 ```
   GlobalScope.launch {
           val  file =  downloadFileButton.downloadAndGetFile("https://dummyfile.pdf")
@@ -39,6 +39,12 @@ profile_image.loadImage("https://imageDummy.jpg")
  
 ```
 profile_image.cancelLoading()
+ ```
+ 
+ ### Clear cache 
+ 
+ ```
+FileCache(context).clear()
  ```
         
 
